@@ -1,16 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-// import { Row, Col } from 'antd';
+import Router from "./routes";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-      </header>
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <Router />
+  </div>
+)
 
 export default App;
