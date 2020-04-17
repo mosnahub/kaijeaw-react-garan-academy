@@ -5,13 +5,11 @@ This is the Project for Garan Academy. Using [Ant Design](https://ant.design/) a
 * [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 ## Installation
-The tool will create and initialize environment and dependencies automatically.
+When you have finished clone this git. Then you need to install Node modules in your directory.
 
-`$ yarn create react-app antd-demo`
+`$ yarn install`
 
-And you will get `antd-demo` folder. You can rename your `antd-demo` whatever you want. (In this case I renamed `antd-demo` to `Bookstore`)
-
-Then we go inside `Bookstore` and start it.
+Then start it.
 ```
 $ cd Bookstore
 $ yarn start
