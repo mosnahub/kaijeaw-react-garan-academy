@@ -16,3 +16,6 @@ Then we go inside `Bookstore` and start it.
 $ cd Bookstore
 $ yarn start
 ```
+
+## Note
+For Garan Academy's student please clone this git.
