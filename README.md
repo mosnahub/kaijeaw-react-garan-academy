@@ -14,7 +14,9 @@ $ yarn install
 
 Then start it.
 
-`$ yarn start`
+```
+$ yarn start
+```
 
 ## Note
 For Garan Academy's student please clone this repository.
