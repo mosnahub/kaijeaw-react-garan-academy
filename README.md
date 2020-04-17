@@ -7,9 +7,13 @@ This is the Project for Garan Academy. Using [Ant Design](https://ant.design/) a
 ## Installation
 When you have finished clone this repository. Then you need to install `node modules` in your directory.
 
-`$ yarn install`
+```
+$ cd kaijeaw-react-garan-academy
+$ yarn install
+```
 
 Then start it.
+
 `$ yarn start`
 
 ## Note
