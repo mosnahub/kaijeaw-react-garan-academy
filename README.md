@@ -5,15 +5,12 @@ This is the Project for Garan Academy. Using [Ant Design](https://ant.design/) a
 * [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 ## Installation
-When you have finished clone this git. Then you need to install Node modules in your directory.
+When you have finished clone this repository. Then you need to install `node modules` in your directory.
 
 `$ yarn install`
 
 Then start it.
-```
-$ cd Bookstore
-$ yarn start
-```
+`$ yarn start`
 
 ## Note
-For Garan Academy's student please clone this git.
+For Garan Academy's student please clone this repository.
