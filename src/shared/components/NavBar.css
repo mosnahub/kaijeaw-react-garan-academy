@@ -1,0 +1,3 @@
+.ant-menu-horizontal > .ant-menu-item > a:only-child {
+    color: #ff0000 !important;
+}
