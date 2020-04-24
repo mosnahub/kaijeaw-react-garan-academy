@@ -3,7 +3,8 @@ import React from 'react';
 const Mcca = () => {
     return (
     <div>
-        <h1>หิวข้าวมากๆ</h1>
+
+        <h1>หนูหิวข้าว</h1>
     </div>
     );
 }
