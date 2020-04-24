@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Order = () => (
-  <div>
+const Order = () => {
+  return (
+    <div>
     <h1>Wow</h1>
-  </div>
-)
+    </div>
+  );
+}
 
 export default Order;
