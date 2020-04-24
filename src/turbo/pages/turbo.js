@@ -1,6 +1,6 @@
 import React from 'react';
 
-const turbo = () => {
+const Turbo = () => {
     return (
         <div>
             <h1>XD XD XD XD</h1>
@@ -8,4 +8,4 @@ const turbo = () => {
     );
 }
 
-export default  turbo;
+export default  Turbo;
