@@ -5,7 +5,7 @@ import Order from "./Order/pages/Order"
 import Navbar from "./shared/pages/NavBar"
 import Mos from "./Mos/pages/Mos"
 import Oat from "./Oat/pages/Oat"
-// import Jop from "./Jop/pages/Jop"
+import Jop from "./Jop/pages/Jop"
 import Zee from "./Zee/pages/Zee"
 import P from "./P/pages/P"
 import Name from "./Name/pages/Name"
@@ -25,7 +25,7 @@ const Routes = () => {
                 <Route exact path="/p" component={P} />
                 <Route exact path="/mos" component={Mos} />
                 <Route exact path="/oat" component={Oat} />
-                {/* <Route exact path="/jop" component={Jop} /> */}
+                <Route exact path="/jop" component={Jop} />
                 <Route exact path="/zee" component={Zee} />
                 <Route exact path="/p" component={P} />
                 <Route exact path="/name" component={Name} />
