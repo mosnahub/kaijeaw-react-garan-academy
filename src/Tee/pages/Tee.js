@@ -3,7 +3,7 @@ import React from 'react';
 const Tee = () => {
     return (
         <div>
-            <h1>I'm so FUCKING LAZY!!!</h1>
+            <h1>Type something</h1>
         </div>
     );
 }
