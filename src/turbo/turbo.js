@@ -8,4 +8,4 @@ const turbo = () => {
     );
 }
 
-export default  Tee;
+export default  turbo;
