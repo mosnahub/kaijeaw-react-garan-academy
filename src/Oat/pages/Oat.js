@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Home = () => (
+const Oat = () => (
   <div>
     <h1> Oat *-* </h1>
   </div>
 )
 
-export default Home;
+export default Oat;
