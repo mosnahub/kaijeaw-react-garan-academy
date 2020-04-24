@@ -1,11 +1,9 @@
 import React from 'react';
 
-const Oat = () => {
-    return (
-        <div>
-            oat
-        </div>
-    );
-}
+const Home = () => (
+  <div>
+    <h1> Oat *-* </h1>
+  </div>
+)
 
-export default Oat;
+export default Home;
