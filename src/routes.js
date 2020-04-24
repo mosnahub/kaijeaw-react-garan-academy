@@ -13,6 +13,7 @@ import Roger from "./Roger/pages/Roger"
 import Tee from "./Tee/pages/Tee"
 import Game from "./Game/pages/Game"
 import turbo from "./turbo/pages/turbo"
+import Macca from "./Macca/pages/Macca"
 
 const Routes = () => {
     return (
@@ -32,7 +33,7 @@ const Routes = () => {
                 <Route exact path="/tee" component={Tee} />
                 <Route exact path="/game" component={Game} />
                 <Route exact path="/turbo" component={turbo} />
-                {/* <Route exact path="/mcca" component={Mcca} /> */}
+                <Route exact path="/mcca" component={Mcca} />
 
             </Switch>
         </Router>
