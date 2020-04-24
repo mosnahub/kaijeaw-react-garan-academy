@@ -1,9 +1,11 @@
 import React from 'react';
 
-const Mos = () => (
+const Mos = () => {
+    return (
     <div>
-        Mos
+        <h1>Mos</h1>
     </div>
-)
+    );
+}
 
 export default Mos;
