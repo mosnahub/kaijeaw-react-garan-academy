@@ -1,7 +1,7 @@
 import React from 'react';
 import { Menu } from 'antd';
 import { Link } from 'react-router-dom';
-import "./components/NavBar.css"
+import "../components/NavBar.css"
 
 const NavBar = () => (
   <div>
