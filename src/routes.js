@@ -3,8 +3,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./Home/pages/Home"
 import Order from "./Order/pages/Order"
 import Navbar from "./shared/pages/NavBar"
-import P from './P/pages/P';
-
 import Mos from "./Mos/pages/Mos"
 import Oat from "./Oat/pages/Oat"
 import Jop from "./Jop/pages/Jop"
