@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Tee = () => {
+const Zee = () => {
     return (
         <div>
-            <h1>Type something</h1>
+            ZEEEEEEEEEEE
         </div>
     );
 }
 
-export default  Tee;
+export default  Zee;
