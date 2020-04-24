@@ -12,8 +12,7 @@ import Name from "./Name/pages/Name"
 import Roger from "./Roger/pages/Roger"
 import Tee from "./Tee/pages/Tee"
 import Game from "./Game/pages/Game"
-import turbo from "./turbo/pages/turbo"
-// import Mcca from "./Mcca/pages/Mcca"
+import Turbo from "./turbo/pages/Turbo"
 
 const Routes = () => {
     return (

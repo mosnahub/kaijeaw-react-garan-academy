@@ -1,9 +1,11 @@
 import React from 'react';
+import { Rate } from 'antd';
+
 
 const Zee = () => {
     return (
         <div>
-            ZEEEEEEEEEEE
+            <Rate />
         </div>
     );
 }
