@@ -2,7 +2,7 @@ import React from 'react';
 
 const Name = () => (
     <div>
-        Name
+    Name
     </div>
 )
 
