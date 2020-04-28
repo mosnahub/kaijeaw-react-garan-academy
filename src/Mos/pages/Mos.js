@@ -65,7 +65,7 @@ const Mos = () => {
     <div>
       {console.log({ foodMenu })}
 
-      <Row>
+      <Row gutter={[16, 16]}>
         {foodMenu.map((item, index) => (
           <Col xs={24} sm={12} md={6} lg={6} xl={6} key={index}>
             <FoodCard foodItem={item} />
