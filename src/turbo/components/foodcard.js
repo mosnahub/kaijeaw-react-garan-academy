@@ -8,7 +8,7 @@ const FoodCard = ({ foodItem }) => {
       {console.log(foodItem)}
       <Card style={{ width: "100%" }}>
         <Row align="middle">
-          <Col className="foodPicCol" span={8}>
+          <Col span={8}>
             <Avatar className="foodpic" src={foodItem.pictureURL} />
           </Col>
           <Col span={16}>
@@ -20,5 +20,4 @@ const FoodCard = ({ foodItem }) => {
     </div>
   );
 };
-
 export default FoodCard;
