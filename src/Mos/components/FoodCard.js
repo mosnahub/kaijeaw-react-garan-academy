@@ -6,10 +6,6 @@ const FoodCard = ({ foodItem }) => {
   return (
     <div>
       {console.log(foodItem)}
-      {/* <Divider
-        orientation="left"
-        style={{ color: "#333", fontWeight: "normal" }}
-      ></Divider> */}
       <Card>
         <Row justify="space-around" align="middle">
           <Col span={6}>
@@ -19,7 +15,7 @@ const FoodCard = ({ foodItem }) => {
               src={foodItem.imageUrl}
             />
           </Col>
-          <Col span={6} className="info">
+          <Col span={18} className="info">
             <h3>{foodItem.name}</h3>
             <p>{foodItem.price}</p>
           </Col>
