@@ -7,8 +7,8 @@ const FoodCard = ({ foodItem }) => {
     <div>
       {console.log(foodItem)}
       <Card style={{ width: "100%" }}>
-        <Row>
-          <Col span={8}>
+        <Row align="middle">
+          <Col className="foodPicCol" span={8}>
             <Avatar className="foodpic" src={foodItem.pictureURL} />
           </Col>
           <Col span={16}>
