@@ -11,17 +11,15 @@ import { AppstoreOutlined,
 
 const { SubMenu } = Menu;    
 
-{/*const Tee = () => {*/}
-    
-    class Tee extends React.Component {
-        state = {
-          collapsed: false,
-        };
-        toggleCollapsed = () => {
-            this.setState({
-              collapsed: !this.state.collapsed,
-            });
-          };
+class Tee extends React.Component {
+    state = {
+        collapsed: false,
+    };
+    toggleCollapsed = () => {
+        this.setState({
+            collapsed: !this.state.collapsed,
+        });
+    };
     render() {
         return (
             <div>
@@ -82,8 +80,8 @@ const { SubMenu } = Menu;
                 </div>
 
             </div>
-            );
-        }
+        );
     }
+}
 
 export default  Tee;
