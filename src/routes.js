@@ -16,6 +16,7 @@ import turbo from "./turbo/pages/turbo";
 import Mcca from "./Mcca/pages/Mcca";
 import New from "./New/pages/new";
 import Bill from "./Bill/pages/Bill";
+import Pond from "./Pond/pages/Pond";
 
 const Routes = () => {
   return (
@@ -37,6 +38,7 @@ const Routes = () => {
         <Route exact path="/mcca" component={Mcca} />
         <Route exact path="/new" component={New} />
         <Route exact path="/bill" component={Bill} />
+        <Route exact path="/pond" component={Pond} />
       </Switch>
     </Router>
   );
