@@ -1,4 +1,5 @@
 import React from "react";
+import { Row, Col } from "antd";
 import FoodCard from "../components/foodCard";
 
 const foodMenu = [
@@ -68,14 +69,15 @@ const Mcca = () => {
   return (
     <div>
       {console.log({ foodMenu })}
-      <h1>ปลาอะไรหิวตอนดึก</h1>
+      <h1>Test Web Menu</h1>
 
-      {foodMenu.map((meunItem, index) => (
-        <div key={index}>
-          {index}
-          <FoodCard foodItem={meunItem} />
-        </div>
-      ))}
+      <Row>
+        {foodMenu.map((menuItem, index) => (
+          <Col lg={{ span: 6 }} md={{ span: 12 }} xs={{ span: 24 }} key={index}>
+            <FoodCard foodItem={menuItem} />
+          </Col>
+        ))}
+      </Row>
     </div>
   );
 };
