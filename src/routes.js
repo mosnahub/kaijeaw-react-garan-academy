@@ -14,7 +14,7 @@ import Tee from "./Tee/pages/Tee";
 import Game from "./Game/pages/Game";
 import turbo from "./turbo/pages/turbo";
 import Mcca from "./Mcca/pages/Mcca";
-import New from "./New/pages/New";
+import New from "./New/pages/new";
 import Bill from "./Bill/pages/Bill";
 
 const Routes = () => {
