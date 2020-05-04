@@ -11,7 +11,7 @@ const FoodCard = ({ foodItem }) => {
           <Col span={10}>
             <Avatar
               className="foodImg"
-              shape="square"
+              // shape="square"
               src={foodItem.imageUrl}
             />
           </Col>
