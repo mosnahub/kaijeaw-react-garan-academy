@@ -8,14 +8,14 @@ const FoodCard = ({ foodItem }) => {
       {console.log(foodItem)}
       <Card>
         <Row justify="space-around" align="middle">
-          <Col span={6}>
+          <Col span={10}>
             <Avatar
               className="foodImg"
               shape="square"
               src={foodItem.imageUrl}
             />
           </Col>
-          <Col span={18} className="info">
+          <Col span={14} className="info">
             <h3>{foodItem.name}</h3>
             <p>{foodItem.price}</p>
           </Col>
