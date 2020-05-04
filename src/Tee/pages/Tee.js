@@ -72,6 +72,7 @@ const Tee = () => {
     <div>
       {console.log({ foodMenu })}
       <h1>Everything is kai but not the firstone</h1>
+
       <Row gutter={[16, 24]}>
         {foodMenu.map((menuItem, index) => (
           <Col lg={{ span: 8 }} md={{ span: 12 }} xs={{ span: 24 }} key={index}>
